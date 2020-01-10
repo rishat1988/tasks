@@ -10,7 +10,7 @@ import org.junit.Test;
 
 public class PyramidBuilderTest {
 
-    private PyramidBuilder pyramidBuilder = new PyramidBuilder();
+    private PyramidBuilder pyramidBuilder = new PyramidBuilderImpl();
 
     @Test
     public void buildPyramid0() {

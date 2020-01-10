@@ -1,6 +1,6 @@
 package com.tsystems.javaschool.tasks.calculator;
 
-public class Calculator {
+public interface Calculator {
 
     /**
      * Evaluate statement represented as string.
@@ -10,9 +10,6 @@ public class Calculator {
      *                  Example: <code>(1 + 38) * 4.5 - 1 / 2.</code>
      * @return string value containing result of evaluation or null if statement is invalid
      */
-    public String evaluate(String statement) {
-        // TODO: Implement the logic here
-        return "";
-    }
+    public String evaluate(String statement);
 
 }

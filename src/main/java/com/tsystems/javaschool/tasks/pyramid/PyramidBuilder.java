@@ -2,7 +2,7 @@ package com.tsystems.javaschool.tasks.pyramid;
 
 import java.util.List;
 
-public class PyramidBuilder {
+public interface PyramidBuilder {
 
     /**
      * Builds a pyramid with sorted values (with minumum value at the top line and maximum at the bottom,
@@ -12,10 +12,7 @@ public class PyramidBuilder {
      * @return 2d array with pyramid inside
      * @throws {@link CannotBuildPyramidException} if the pyramid cannot be build with given input
      */
-    public int[][] buildPyramid(List<Integer> inputNumbers) {
-        // TODO : Implement your solution here
-        return new int[0][0];
-    }
+    public int[][] buildPyramid(List<Integer> inputNumbers);
 
 
 }

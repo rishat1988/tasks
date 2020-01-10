@@ -2,7 +2,7 @@ package com.tsystems.javaschool.tasks.subsequence;
 
 import java.util.List;
 
-public class Subsequence {
+public interface Subsequence {
 
     /**
      * Checks if it is possible to get a sequence which is equal to the first
@@ -13,8 +13,5 @@ public class Subsequence {
      * @return <code>true</code> if possible, otherwise <code>false</code>
      */
     @SuppressWarnings("rawtypes")
-    public boolean find(List x, List y) {
-        // TODO: Implement the logic here
-        return false;
-    }
+    public boolean find(List x, List y);
 }
