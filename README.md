@@ -12,7 +12,7 @@ The exam includes 3 tasks to be done: [Calculator](/tasks/Calculator.md), [Pyram
 ### Result ###
 
 * Author name : {RISHAT}
-* Codeship : {https://app.codeship.com/projects/ed3ad840-1607-0138-8e8e-36c2108eb874/status?branch=master}
+* Codeship : {[![Codeship Status for rishat1988/tasks](https://app.codeship.com/projects/ed3ad840-1607-0138-8e8e-36c2108eb874/status?branch=master)](https://app.codeship.com/projects/380876)}
 
 Example of Codeship badge. Please remove the example before you send us the link. 
 [https://app.codeship.com/projects/ed3ad840-1607-0138-8e8e-36c2108eb874/status?branch=master](https://app.codeship.com/projects/201451)
